@@ -45,7 +45,7 @@ class Student
     end
   end
     
-  def self.create
+  def self.create(name, grade)
     song = self.new(name, grade)
     song.save
     song
